@@ -1,0 +1,34 @@
+{
+  "schema": "openskills.provenance.v1",
+  "skill": "durable-state-roundtrip",
+  "status": "qualified-transfer-candidate",
+  "source": {
+    "harness": "claude-code",
+    "trace_id": "session:claude_code:dc0a3ba8-4a7d-4adf-9eb8-2e74f3a58205",
+    "note": "Public record contains trace identity and sanitized claims only; raw trace remains private."
+  },
+  "transfer_evaluation": {
+    "target_harness": "codex-cli",
+    "model": "gpt-6-astra",
+    "control_trace_id": "trace:e3581b77d7589bb1040323a574b4ed45",
+    "intervention_trace_id": "trace:d0b994390b2908cb9a34e72f03f9fc42",
+    "control_outcome": "solved",
+    "intervention_outcome": "solved",
+    "control_duration_seconds": 173.9,
+    "intervention_duration_seconds": 171.4,
+    "control_input_tokens": 29186,
+    "intervention_input_tokens": 42583,
+    "control_output_tokens": 3921,
+    "intervention_output_tokens": 3564,
+    "control_reasoning_output_tokens": 1211,
+    "intervention_reasoning_output_tokens": 796,
+    "conclusion": "Cross-harness transfer demonstrated. Incremental efficacy, latency, and cost advantage not established by this single A/B pair."
+  },
+  "limitations": [
+    "The control solved the held-out defect without the skill.",
+    "The intervention used more input and cache-read tokens.",
+    "The intervention regression included a fail-closed assertion that did not itself prove a particular record was remembered.",
+    "Ordinary restart tests do not establish power-loss durability.",
+    "A single A/B pair is not an efficacy study."
+  ]
+}
