@@ -1,0 +1,18 @@
+{
+  "schema": "openskills.registry.v1",
+  "skills": [
+    {
+      "name": "durable-state-roundtrip",
+      "path": "skills/durable-state-roundtrip",
+      "status": "qualified-transfer-candidate",
+      "formats": [
+        "agent-skills/1"
+      ],
+      "harnesses": [
+        "claude-code",
+        "codex"
+      ],
+      "claim": "Cross-harness transfer demonstrated; incremental efficacy/cost advantage not established."
+    }
+  ]
+}
