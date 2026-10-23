@@ -12,7 +12,14 @@
         "claude-code",
         "codex"
       ],
-      "claim": "Cross-harness transfer demonstrated; incremental efficacy/cost advantage not established."
+      "claim": "Cross-harness transfer demonstrated; incremental efficacy/cost advantage not established.",
+      "integrity": {
+        "algorithm": "sha256",
+        "files": {
+          "SKILL.md": "b9a3b3bd8a4a87910b03b6168cf2be886d8d19f02077781bcc030f5d527170a6",
+          "provenance.json": "1ad37ab964a0272794a910e885b2addc7d16de880f6061693d6f2f9d56ca9e77"
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,2 @@
+# Distribution tooling only; no package execution or model calls.
+PyYAML==6.0.3
