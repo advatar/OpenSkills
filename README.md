@@ -17,3 +17,10 @@ Skills may be derived from Claude Code, Codex, or other agent runs, but only san
 The first transfer experiment used a real Claude Code engineering episode and a controlled Codex A/B evaluation. Both the unassisted control and skill-assisted Codex run solved the held-out defect. The demonstrated claim is **cross-harness transfer**, not a proven efficacy, latency, or cost advantage.
 
 See [registry.json](registry.json) for the machine-readable index.
+
+## Distribution validation
+
+CI validates the Agent Skills metadata, registry coverage, package SHA-256 digests and
+provenance consistency. These checks do not establish efficacy or grant execution
+authority. See [CONFORMANCE.md](CONFORMANCE.md) for the pinned format baseline,
+validation commands, local ingestion restrictions and evidence limits.
